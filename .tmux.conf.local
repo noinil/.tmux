@@ -248,3 +248,6 @@ set-option -g allow-rename off
 run-shell ~/.tmux/plugins/tmux-sensible/sensible.tmux
 run-shell ~/.tmux/plugins/tmux-resurrect/resurrect.tmux
 run-shell ~/.tmux/plugins/tmux-copycat/copycat.tmux
+
+unbind -n n
+unbind -n N
